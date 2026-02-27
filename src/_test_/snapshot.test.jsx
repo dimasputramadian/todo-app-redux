@@ -10,7 +10,7 @@ test("TodoItem matches snapshot", () => {
     reducer: {
       todos: (state = []) => state, // reducer dummy
     },
-  });
+  });``
 
   const { asFragment } = render(
     <Provider store={store}>
